@@ -1,0 +1,24 @@
+{
+  "name": "slackbot-supabase",
+  "version": "1.0.0",
+  "description": "A Slackbot that reacts to new rows in Supabase DB table",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.6.0",
+    "@supabase/supabase-js": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@vercel/node": "^1.12.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
